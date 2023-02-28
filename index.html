@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Web_Prog</title>
+</head>
+
+<style>
+    body{
+
+        background-color: rgb(85, 65, 129);
+
+    }
+</style>
+
+
+
+<body>
+
+
+<div class="background">
+
+    <h1>Calculadora Básica</h1>
+
+    <form>
+
+        <!--  comentário  -->
+        
+        <input type="number" id="num1">
+        +
+        <input type="number" id="num2">
+
+        <button type="button" onclick="somar">Somar</button>
+                
+        <input id="resp" type="number" readonly>
+
+    </form>
+
+
+
+    
+    <script>
+
+function somar(){
+
+        var num1,num2,RESULT;
+
+        num1 = parseFloat(document.getElementById("num1").Value);
+        num2 = parseFloat(document.getElementById("num2").Value);
+
+        RESULT=NUM1+NUM2;
+
+        document.getElementById ("resp").Value = RESULT;
+    }
+
+    </script>
+
+
+</div>
+
+
+</body>
+
+</html>
