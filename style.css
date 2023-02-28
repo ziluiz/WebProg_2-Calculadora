@@ -1,6 +1,6 @@
 .body{
 
-    background-color: rgb(85, 65, 129);
+    color: rgb(85, 65, 129);
 
 
 
@@ -16,15 +16,8 @@
 
 }
 
-.buttons{
+.button{
 
-
-
-}
-
-.history{
-
-
-
+color: aquamarine;
 
 }
